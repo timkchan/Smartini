@@ -14,14 +14,14 @@ The purpose of our research and the making of the Smartini Cocktail Robot was to
 ### 3. Files
 
 The main code is composed of two parts: c++ code and .ini parameters file. The first goes into modules folder, the second inside app folder. As the name itself suggests, in modules folder it is possible to write the Modules one may want. Modules are particular classes made of 5 compulsory methods:
-* Configure method, launched only the first time the modules is created. Here all the "rpc" (Remote Procedure Call) ports should be instantiated and double checked.
+* Configure method, launched only the first time the modules is created. Here all the 'rpc' (Remote Procedure Call) ports should be instantiated and double checked.
 * Respond method, used to launch some actions(functions written in the same class) when an rpc command(correctly formatted), is received
 * UpdateModule method,  used  to run some code with a certain period. This whole code is execuited, and then, after a PeriodTime, is it restarted again.
 * getPeriod, used to retrieve the period time 
 * interruptModule, method to be used when a interrupt signal is sent to the the modules
 * closeModule, method to close the modules.
 and other functions needed.
-The .ini (app/conf/module_name.ini or app/conf/client.ini )  files are loaded at runtime, so, once c++ code is supposed to be correct, it is possible to change  parameters directly in it and to perform a refined tuning. 
+The `.ini` (`app/conf/module_name.ini or app/conf/client.ini`)  files are loaded at runtime, so, once c++ code is supposed to be correct, it is possible to change  parameters directly in it and to perform a refined tuning. 
 
 
 Files in this project (not all are shown):
