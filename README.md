@@ -109,14 +109,13 @@ $ speechRecog
 This is a 4th yr class (EE4.60 HCR) project at Imperial College London supervised by prof. Yiannis Demiris
 
 Team members:
-* Chantal Tognetti
-* Emanuele Gentili
-* Fabian Duffhauss
-* Filippo Baldini
-* Tim K. Chan
+* Chantal Tognetti - ct2416@ic.ac.uk
+* Emanuele Gentili - eg2214@ic.ac.uk
+* Fabian Duffhauss - fad16@ic.ac.uk
+* Filippo Baldini - fb1713@ic.ac.uk
+* Tim K. Chan - timchan@berkeley.edu>
 
-Contacts:
-	{ct2416, eg2214, fad16, fb1713}@ic.ac.uk, 
+Special thanks:
+* Maxime Petit - m.petit@imperial.ac.uk
 
 [vdo]: <https://youtu.be/k7Cp1eb-CAM>
-[Tim K. Chan]: <timchan@berkeley.edu>
