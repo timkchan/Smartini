@@ -44,7 +44,7 @@ Files in this project (not all are shown):
     * `serialCommunication.ino`:	Codes to be run on the arduino.
 
 * `finalReport/`:           Subdirectory holding final report files:
-    * `main.tex`:          	Latex file of the final report
+    * `main.tex`:          	Latex file of the final report (needs /figures for figures)
 	* `finalReport.pdf`:    Rendered pdf of the final report
 
 * `findings/`:  			Subdirectory holding raw data collected from customers:
