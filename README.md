@@ -1,4 +1,4 @@
-# Smartini, the bartender of the future
+# Smartini - The First Imperial College CocktailBot
 ![](figures/setup.jpg?raw=true)
 ![](figures/demo.png?raw=true)
 
