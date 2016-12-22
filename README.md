@@ -21,6 +21,8 @@ The main code is composed of two parts: c++ code and .ini parameters file. The f
 * interruptModule, method to be used when a interrupt signal is sent to the the modules
 * closeModule, method to close the modules.
 and other functions needed.
+
+
 The `.ini` (`app/conf/module_name.ini or app/conf/client.ini`)  files are loaded at runtime, so, once c++ code is supposed to be correct, it is possible to change  parameters directly in it and to perform a refined tuning. 
 
 
