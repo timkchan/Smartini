@@ -1,0 +1,21 @@
+<GRAMMAR  LANGID="809">
+
+  <RULE NAME="fine"  TOPLEVEL="ACTIVE" EXPORT="1">
+    <L>
+      <P>fine</P>
+      <P>ok</P>
+    </L>
+  </RULE>
+
+  <RULE NAME="little" TOPLEVEL="ACTIVE" EXPORT="1">
+    <P>too little</P>
+  </RULE>
+  
+    <RULE NAME="much" TOPLEVEL="ACTIVE" EXPORT="1">
+    <P>too much</P>
+  </RULE>
+
+
+
+
+</GRAMMAR>

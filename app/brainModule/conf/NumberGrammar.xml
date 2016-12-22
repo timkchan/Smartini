@@ -1,0 +1,43 @@
+<GRAMMAR  LANGID="809">
+
+  <RULE NAME="one"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>one</P>
+  </RULE>
+
+  <RULE NAME="two" TOPLEVEL="ACTIVE" EXPORT="1">
+    <P>two</P>
+  </RULE>
+  
+  <RULE NAME="three"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>three</P>
+  </RULE>
+
+  <RULE NAME="four"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>four</P>
+  </RULE>
+  
+  <RULE NAME="five"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>five</P>
+  </RULE>
+  
+  <RULE NAME="six"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>six</P>
+  </RULE>
+  
+  <RULE NAME="seven"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>seven</P>
+  </RULE>
+  
+  <RULE NAME="eight"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>eight</P>
+  </RULE>
+  <RULE NAME="nine"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>nine</P>
+  </RULE>
+  
+  <RULE NAME="ten"  TOPLEVEL="ACTIVE" EXPORT="1">
+	<P>ten</P>
+  </RULE>
+
+
+</GRAMMAR>

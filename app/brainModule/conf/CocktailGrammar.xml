@@ -1,0 +1,46 @@
+﻿<GRAMMAR	LANGID="809">
+
+  <DEFINE>
+    <ID	NAME="predicateObject"	VAL="2"/>
+    <ID	NAME="cocktail"	VAL="3"/>
+	<ID	NAME="please"	VAL="4"/>
+  </DEFINE>
+  
+  
+
+  <RULE	NAME="SENTENCEOBJECT"	TOPLEVEL="ACTIVE"	EXPORT="1">
+	<RULEREF	NAME="please"/>
+    <RULEREF	NAME="predicateObject"/>
+    <O>
+        <P>a</P>
+    </O>
+    <RULEREF	NAME="cocktail"/>
+	<RULEREF	NAME="please"/>
+  </RULE>
+
+  <RULE NAME="predicateObject" DYNAMIC="TRUE">
+	<O>
+		<P>can i have</P>
+    </O>
+  </RULE>
+  
+    <RULE NAME="cocktail" DYNAMIC="TRUE">
+    <L>
+      <P>sunrise</P>
+      <P>smartee knee</P>
+      <P>tropical</P>
+	  <P>passion</P>
+      <P>classic</P>
+    </L>
+  </RULE>
+  
+    <RULE	NAME="please"	TOPLEVEL="ACTIVE"	EXPORT="1">
+    <O>
+		<L>
+			<P>please</P>
+			<P>thank you</P>
+      </L>
+    </O>
+  </RULE>
+
+</GRAMMAR>
