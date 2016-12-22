@@ -1,5 +1,6 @@
 # Smartini, the bartender of the future
 ![](demo.png?raw=true)
+![](figures/setup.jpg?raw=true)
 
 ### 1. Overview of Smartini
 The purpose of our research and the making of the Smartini Cocktail Robot was to create an interactive and learning-capable robot that address the challenge of human-robot interaction and modern cocktail making through state-of-the-art technology. We explored different modes of communication, including eye-contact, gestures and speech. We included an entertainment system in our Smartini, composed of jokes and news telling. Smartini can also learn customer trends on the taste of the drinks and adjust its recipes accordingly.
@@ -40,6 +41,14 @@ Files in this project (not all are shown):
 
 * `serialCommunication/`:   Subdirectory holding Arduino codes:
     * `serialCommunication.ino`:	Codes to be run on the arduino.
+
+* `figures/`:  				Subdirectory holding figures used in the report:
+    * `BlockDiagram.pdf`:	Modular view of the ststem
+    * `feedback.pdf`:		Flowchart of the Feedback State
+    * `pumpCircuit.png`:	The circuit used to control the pumps
+    * `setup.jpg`:			Picture showing the physical setup
+    * `StateMachine.png`:	Illustrates the state of the system
+    * `Survey.pdf`:			Questionnaire used to gather user findings
 
 
 ### 4. Dependency
