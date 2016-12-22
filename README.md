@@ -1,6 +1,6 @@
 # Smartini, the bartender of the future
-![](demo.png?raw=true)
 ![](figures/setup.jpg?raw=true)
+![](demo.png?raw=true)
 
 ### 1. Overview of Smartini
 The purpose of our research and the making of the Smartini Cocktail Robot was to create an interactive and learning-capable robot that address the challenge of human-robot interaction and modern cocktail making through state-of-the-art technology. We explored different modes of communication, including eye-contact, gestures and speech. We included an entertainment system in our Smartini, composed of jokes and news telling. Smartini can also learn customer trends on the taste of the drinks and adjust its recipes accordingly.
@@ -127,7 +127,8 @@ $ brainModule
 ```
 
 ### 6. Demo video
-[vdo]
+[View Video]
+[Download Video]
 
 ### 7. Contribution
 This is a 4th yr class (EE4.60 HCR) project at Imperial College London supervised by prof. Yiannis Demiris
@@ -142,4 +143,5 @@ Team members:
 Special thanks:
 * Maxime Petit - m.petit@imperial.ac.uk
 
-[vdo]: <https://youtu.be/k7Cp1eb-CAM>
+[View Video]: <https://youtu.be/k7Cp1eb-CAM>
+[Download Video]: <https://drive.google.com/open?id=0BzXoKHuf6nEuUG9vV1BDRzg3eXM>
