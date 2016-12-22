@@ -31,8 +31,7 @@ The `.ini` (`app/conf/module_name.ini or app/conf/client.ini`)  files are loaded
 Files in this project (not all are shown):
 
 * `README.md`:          	This file
-* `main.tex`:          		Latex file of the final report
-* `finalReport.pdf`:        Rendered pdf of the final report
+
 * `app/`:                 	Subdirectory holding ini parameters files:
     * `arduino`:            Parameters files for Arduino Module
     * `brainModule`:        Parameters files for brainModule
@@ -43,6 +42,10 @@ Files in this project (not all are shown):
 
 * `serialCommunication/`:   Subdirectory holding Arduino codes:
     * `serialCommunication.ino`:	Codes to be run on the arduino.
+
+* `finalReport/`:           Subdirectory holding final report files:
+    * `main.tex`:          	Latex file of the final report
+	* `finalReport.pdf`:    Rendered pdf of the final report
 
 * `findings/`:  			Subdirectory holding raw data collected from customers:
     * `findings.pdf`:		Rendered table view of all results
