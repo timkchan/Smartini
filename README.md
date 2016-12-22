@@ -136,8 +136,8 @@ $ brainModule
 ```
 
 ### 6. Demo video
-[View Video]
-[Download Video]
+Youtube: [View Video]
+Download: [Download Video]
 
 ### 7. Contribution
 This is a 4th yr class (EE4.60 HCR) project at Imperial College London supervised by prof. Yiannis Demiris
