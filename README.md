@@ -113,7 +113,7 @@ Team members:
 * Emanuele Gentili - eg2214@ic.ac.uk
 * Fabian Duffhauss - fad16@ic.ac.uk
 * Filippo Baldini - fb1713@ic.ac.uk
-* Tim K. Chan - timchan@berkeley.edu>
+* Tim K. Chan - timchan@berkeley.edu
 
 Special thanks:
 * Maxime Petit - m.petit@imperial.ac.uk
