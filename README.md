@@ -42,9 +42,8 @@ Files in this project (not all are shown):
     * `serialCommunication.ino`:	Codes to be run on the arduino.
 
 
-### 4 Dependency
+### 4. Dependency
 Notice that the project is built on `wysiwyd`. The files listed above should be run inside `wysiwyd` environment.
-
 Please refer to: https://github.com/robotology/wysiwyd
 
 ### 5. Running Smartini with iCub simulator
