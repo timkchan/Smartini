@@ -31,18 +31,23 @@ Files in this project (not all are shown):
 
 * `README.md`:          	This file
 * `app/`:                 	Subdirectory holding ini parameters files:
-    * `arduino`:            Parameters files for arduino
+    * `arduino`:            Parameters files for Arduino Module
     * `brainModule`:        Parameters files for brainModule
 
 * `module/`:                Subdirectory holding c++ source code:
-    * `arduino`:           	Source code for arduino
+    * `arduino`:           	Source code for Arduino Module
     * `brainModule`:        Source code for brainModule
 
-* `serialCommunication/`:   Subdirectory holding arduino codes:
-    * `serialCommunication.ino`:	Codes to run the arduino.
+* `serialCommunication/`:   Subdirectory holding Arduino codes:
+    * `serialCommunication.ino`:	Codes to be run on the arduino.
 
 
-### 4. Running Smartini with iCub simulator
+### 4 Dependency
+Notice that the project is built on `wysiwyd`. The files listed above should be run inside `wysiwyd` environment.
+
+Please refer to: https://github.com/robotology/wysiwyd
+
+### 5. Running Smartini with iCub simulator
 
 Initiate Yarp network:
 
@@ -83,8 +88,6 @@ wholeBodyDynamics (dependency of ARE):
 $ wholeBodyDynamics --robot icubSim --autoconnect --dummy_ft --no_legs
 ```
 
-
-
 ActionsRenderingEngine:
 ```sh
 $ actionsRenderingEngine --from sim/config.ini
@@ -105,10 +108,20 @@ Speech Recognition module:
 $ speechRecog
 ```
 
-### 5. Demo video
+Arduino Module
+```sh
+$ arduino
+```
+
+Brain Module
+```sh
+$ brainModule
+```
+
+### 6. Demo video
 [vdo]
 
-### 6. Contribution
+### 7. Contribution
 This is a 4th yr class (EE4.60 HCR) project at Imperial College London supervised by prof. Yiannis Demiris
 
 Team members:
