@@ -1,5 +1,5 @@
 # Smartini - The First Imperial College CocktailBot
-![](figures/setup2.jpg?raw=true)
+![](figures/setup.jpg?raw=true)
 ![](figures/demo.png?raw=true)
 
 ### 1. Overview of Smartini
