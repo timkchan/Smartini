@@ -116,6 +116,7 @@ Team members:
 * Tim K. Chan
 
 Contacts:
-	{ct2416, eg2214, fad16, fb1713}@ic.ac.uk, timchan@berkeley.edu
+	{ct2416, eg2214, fad16, fb1713}@ic.ac.uk, 
 
 [vdo]: <https://youtu.be/k7Cp1eb-CAM>
+[Tim K. Chan]: <timchan@berkeley.edu>
