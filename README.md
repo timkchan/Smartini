@@ -42,6 +42,10 @@ Files in this project (not all are shown):
 * `serialCommunication/`:   Subdirectory holding Arduino codes:
     * `serialCommunication.ino`:	Codes to be run on the arduino.
 
+* `findings/`:  			Subdirectory holding raw data collected from customers:
+    * `findings.pdf`:		Rendered table view of all results
+    * `questionnaire.pdf`:	Questionnaire used to get the findings
+
 * `figures/`:  				Subdirectory holding figures used in the report:
     * `BlockDiagram.pdf`:	Modular view of the ststem
     * `feedback.pdf`:		Flowchart of the Feedback State
