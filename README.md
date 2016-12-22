@@ -39,7 +39,7 @@ $ yarpserver --write
 Check if Yarp server is running
 ```sh
 $ yarpdetect
-```sh
+```
 
 Initiate iCub simulator:
 ```sh
@@ -51,45 +51,45 @@ Initiate all necessary modules:
 Cartesian server:
 ```sh
 $ yarprobotinterface --context simCartesianControl
-```sh
+```
 
 Cartesian solver for left and right arms:
 ```sh
 $ iKinCartesianSolver --context simCartesianControl --part left_arm
 $ iKinCartesianSolver --context simCartesianControl --part right_arm
-```sh
+```
 
 Gaze control:
 ```sh
 $ iKinGazeCtrl --from configSim.ini
-```sh
+```
 
 wholeBodyDynamics (dependency of ARE):
-```sh
+```
 $ wholeBodyDynamics --robot icubSim --autoconnect --dummy_ft --no_legs
-```sh
+```
 
 
 
 ActionsRenderingEngine:
 ```sh
 $ actionsRenderingEngine --from sim/config.ini
-```sh
+```
 
 Object Properties Collector (dependency of ARE):
 ```sh
 $ objectsPropertiesCollector --name OPC --no-load-db --no-save-db
-```sh
+```
 
 iSpeak module:
 ```sh
 $ iSpeak
-```sh
+```
 
 Speech Recognition module:
 ```sh
 $ speechRecog
-```sh
+```
 
 
 
